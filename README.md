@@ -1,0 +1,2 @@
+# JGenerator
+基于FreeMarker的适用于Mybatis的代码生成器
