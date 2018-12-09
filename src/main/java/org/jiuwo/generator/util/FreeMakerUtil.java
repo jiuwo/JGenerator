@@ -24,8 +24,8 @@ public class FreeMakerUtil {
     /**
      * 获取模板文件
      *
-     * @param name
-     * @return
+     * @param name 名称
+     * @return 模板
      */
     public Template getTemplate(String name) {
         try {
@@ -46,6 +46,7 @@ public class FreeMakerUtil {
      * @param templateName:模板名
      * @param root：数据原型
      * @param outFilePath：输出路径(全路径名)
+     * @param level 级别
      */
     public void generateFile(String templateName,
                              Map<String, Object> root,

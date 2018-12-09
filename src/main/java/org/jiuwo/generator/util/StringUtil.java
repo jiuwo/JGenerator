@@ -14,10 +14,10 @@ import org.jiuwo.generator.model.Field;
 public class StringUtil {
     /**
      * 把数据库中的字段转换为变量类型
-     * 如（user_id ----> userId）
+     * 如（user_id ---- userId）
      *
-     * @param field
-     * @return
+     * @param field 字段
+     * @return 结果
      */
     public static String convertField(String field) {
         //分隔符
